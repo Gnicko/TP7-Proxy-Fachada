@@ -10,6 +10,7 @@ public class Main {
 
         List<String[]> lista = fachada.queryResultAsArray("SELECT * FROM personas");
 
+
         for (String[] arregloDeValores : lista) {
             for (int i = 0; i < arregloDeValores.length; i++) {
                 System.out.print(arregloDeValores[i] + " ");
